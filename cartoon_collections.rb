@@ -22,9 +22,10 @@ end
 def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
-cheese = array & cheese_types
-if !(array&cheese_types).empty?
-  puts cheese(0)
-else
-  puts false
+  cheese = %w(gouda cheddar camembert)
+  if array.in?(cheese_types)
+    true
+  else
+    false
+
 end
