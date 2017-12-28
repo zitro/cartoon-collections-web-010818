@@ -25,7 +25,7 @@ def find_the_cheese(array)# code an argument here
 
   cheese = array & cheese_types
   finalCheese = cheese.join
-  if cheese.empty?
+  if cheese
     puts finalCheese
   else
     puts nil
