@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-  array.each? {|n| puts n.length.to_i >= 3 }
+  array.each {|n| puts n.length.to_i >= 3 }
 end
 
 def find_the_cheese# code an argument here
