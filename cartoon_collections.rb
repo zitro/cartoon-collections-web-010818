@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-array.split.select{|x| x.length > length}.size > 4
+array.split().any? {|i| i[4] != nil}
 end
 
 =begin
