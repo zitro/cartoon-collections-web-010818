@@ -10,7 +10,7 @@ end
 
 def long_planeteer_calls(array)# code an argument here
   # Your code here
-  array.map {|i| i.length}
+  array.each do |i|
   if i >= 5
     puts true
   else
