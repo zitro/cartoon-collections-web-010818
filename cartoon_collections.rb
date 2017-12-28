@@ -23,8 +23,8 @@ def find_the_cheese(array)# code an argument here
   # the array below is here to help
   cheese_types = ["cheddar", "gouda", "camembert"]
 cheese = array & cheese_types
-if cheese.length == 0
-  puts false
+if !(array&cheese_types).empty?
+  puts cheese(0)
 else
-  puts cheese[0]
+  puts false
 end
