@@ -20,7 +20,7 @@ def find_the_cheese(array)# code an argument here
 
   cheese = array & cheese_types
   finalCheese = cheese.join
-  if array.include?(cheese_types)
+  if array.include?(cheese)
     puts cheese[0]
   else
     puts nil
