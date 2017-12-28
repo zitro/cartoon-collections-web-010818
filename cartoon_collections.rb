@@ -29,5 +29,6 @@ def find_the_cheese(array)# code an argument here
     finalCheese
   else
     nil
+  end
 
 end
