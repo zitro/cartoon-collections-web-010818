@@ -26,8 +26,8 @@ def find_the_cheese(array)# code an argument here
   cheese = array & cheese_types
   finalCheese = cheese.join
   if cheese
-    puts finalCheese
+    finalCheese
   else
-    puts nil
+    nil
 
 end
